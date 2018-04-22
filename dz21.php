@@ -1,0 +1,20 @@
+4<?php
+$val = require 'functions.php';
+echo '1  - ';
+echo task1(['dfs', 'sdf', 'sdfh'], 1) . '<br>';
+echo '2  - ';
+echo $t2 = task2('-', [1, 2, 3, 4, 5, 6, 12]) . '<br>';
+echo '3  - ';
+echo task3('+', [6, 2, 3, 4, 5, 6, 8, 80]) . '<br>';
+echo '4  - ';
+task4(2, 3) . '<br>';
+echo '5  - ';
+task55('ada gaag ada');
+echo '6  - ';
+echo task6() . '<br>';
+echo '7   - ';
+task7("Dvi бутылки лимонада", "Dvi", "Tri");
+echo '72   -  ';
+task72("Kарл уКрал у Клары караллы");
+task8();
+task9();
